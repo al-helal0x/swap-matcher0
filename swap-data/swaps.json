@@ -1433,6 +1433,38 @@
       "contact": "",
       "createdAt": "2026-10-19T19:18:52Z",
       "prNumber": 68
+    },
+    {
+      "subjectId": "programming-2",
+      "subjectName": "برمجة (2)",
+      "section": "theory",
+      "fromSlot": 4,
+      "mode": "custom",
+      "toSlots": [
+        2
+      ],
+      "id": "swp_1792440494483_w4ov",
+      "studentName": "علي عبد الحكيم المذيب",
+      "studentId": "20257104",
+      "contact": "0952548011",
+      "createdAt": "2026-10-19T20:08:20Z",
+      "prNumber": 69
+    },
+    {
+      "subjectId": "electronics-1",
+      "subjectName": "الإلكترونيات (1)",
+      "section": "theory",
+      "fromSlot": 2,
+      "mode": "custom",
+      "toSlots": [
+        1
+      ],
+      "id": "swp_1792440494483_w4ov_2",
+      "studentName": "علي عبد الحكيم المذيب",
+      "studentId": "20257104",
+      "contact": "0952548011",
+      "createdAt": "2026-10-19T20:08:20Z",
+      "prNumber": 69
     }
   ]
 }
