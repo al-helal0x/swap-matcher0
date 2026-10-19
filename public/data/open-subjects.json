@@ -1,0 +1,315 @@
+{
+  "source": "weekly_schedule.xlsx",
+  "note": "المواد المفتوحة هذا الفصل (من الجدول الأسبوعي) مربوطة بمعرّفات مخطط الدراسة. scheduleNames = كما وردت أسماؤها في الجدول.",
+  "courses": [
+    {
+      "id": "programming-principles",
+      "scheduleNames": [
+        "مبادئ البرمجة"
+      ]
+    },
+    {
+      "id": "operations-research",
+      "scheduleNames": [
+        "بحوث العمليات"
+      ]
+    },
+    {
+      "id": "programming-languages",
+      "scheduleNames": [
+        "لغات البرمجة"
+      ]
+    },
+    {
+      "id": "operating-systems",
+      "scheduleNames": [
+        "أنظمة التشغيل"
+      ]
+    },
+    {
+      "id": "neural-networks",
+      "scheduleNames": [
+        "شبكات عصبونية"
+      ]
+    },
+    {
+      "id": "network-programming",
+      "scheduleNames": [
+        "برمجة الشبكات"
+      ]
+    },
+    {
+      "id": "control-1",
+      "scheduleNames": [
+        "تحكم 1"
+      ]
+    },
+    {
+      "id": "advanced-algorithms",
+      "scheduleNames": [
+        "خوارزميات متقدمة"
+      ]
+    },
+    {
+      "id": "engineering-ethics",
+      "scheduleNames": [
+        "أخلاقيات مهنة الهندسة"
+      ]
+    },
+    {
+      "id": "numerical-analysis",
+      "scheduleNames": [
+        "تحليل عددي"
+      ]
+    },
+    {
+      "id": "compilers",
+      "scheduleNames": [
+        "مترجمات"
+      ]
+    },
+    {
+      "id": "intro-ai",
+      "scheduleNames": [
+        "مبادئ الذكاء الصنعي"
+      ]
+    },
+    {
+      "id": "microprocessors",
+      "scheduleNames": [
+        "معالجات صغرية"
+      ]
+    },
+    {
+      "id": "math-2",
+      "scheduleNames": [
+        "رياضيات 2"
+      ]
+    },
+    {
+      "id": "math-1",
+      "scheduleNames": [
+        "رياضيات 1"
+      ]
+    },
+    {
+      "id": "network-protocols",
+      "scheduleNames": [
+        "بروتوكولات الشبكات",
+        "بروتوكولات شبكات"
+      ]
+    },
+    {
+      "id": "engineering-workshops",
+      "scheduleNames": [
+        "ورشات هندسية"
+      ]
+    },
+    {
+      "id": "math-3",
+      "scheduleNames": [
+        "رياضيات 3"
+      ]
+    },
+    {
+      "id": "parallel-programming",
+      "scheduleNames": [
+        "برمجة تفرعية"
+      ]
+    },
+    {
+      "id": "graph-theory-cad",
+      "scheduleNames": [
+        "نظرية البيان والتصميم بمعونة الحاسب"
+      ]
+    },
+    {
+      "id": "computer-network-management",
+      "scheduleNames": [
+        "إدارة الشبكات الحاسوبية"
+      ]
+    },
+    {
+      "id": "physics-1",
+      "scheduleNames": [
+        "فيزياء 1"
+      ]
+    },
+    {
+      "id": "programming-2",
+      "scheduleNames": [
+        "برمجة 2"
+      ]
+    },
+    {
+      "id": "contemporary-issues",
+      "scheduleNames": [
+        "قضايا معاصرة"
+      ]
+    },
+    {
+      "id": "economics",
+      "scheduleNames": [
+        "علم اقتصاد"
+      ]
+    },
+    {
+      "id": "english-language-1",
+      "scheduleNames": [
+        "اللغة الانجليزية 1"
+      ]
+    },
+    {
+      "id": "algorithms-data-structures",
+      "scheduleNames": [
+        "خوارزميات وبنى المعطيات"
+      ]
+    },
+    {
+      "id": "software-analysis-design",
+      "scheduleNames": [
+        "تحليل وتصميم نظم برمجية"
+      ]
+    },
+    {
+      "id": "computer-networks",
+      "scheduleNames": [
+        "شبكات حاسوب",
+        "شبكات الحاسوب",
+        "شبكات حاسوبية"
+      ]
+    },
+    {
+      "id": "engineers-communication-skills",
+      "scheduleNames": [
+        "مهارات الاتصال للمهندسين"
+      ]
+    },
+    {
+      "id": "arabic-language-2",
+      "scheduleNames": [
+        "اللغة العربية 2"
+      ]
+    },
+    {
+      "id": "graduation-project-1",
+      "scheduleNames": [
+        "مشروع تخرج 1"
+      ]
+    },
+    {
+      "id": "graduation-project-2",
+      "scheduleNames": [
+        "مشروع تخرج 2"
+      ]
+    },
+    {
+      "id": "circuits",
+      "scheduleNames": [
+        "دارات كهربائية 1"
+      ]
+    },
+    {
+      "id": "multimedia-systems",
+      "scheduleNames": [
+        "وسائط متعددة"
+      ]
+    },
+    {
+      "id": "communications",
+      "scheduleNames": [
+        "اتصالات رقمية"
+      ]
+    },
+    {
+      "id": "digital-logic",
+      "scheduleNames": [
+        "منطق رقمي (دارات منطقية)"
+      ]
+    },
+    {
+      "id": "modeling-simulation",
+      "scheduleNames": [
+        "نمذجة ومحاكاة"
+      ]
+    },
+    {
+      "id": "project-management",
+      "scheduleNames": [
+        "إدارة مشاريع برمجية"
+      ]
+    },
+    {
+      "id": "network-and-systems-security",
+      "scheduleNames": [
+        "أمن الشبكات"
+      ]
+    },
+    {
+      "id": "electronics-1",
+      "scheduleNames": [
+        "إلكترونيات 1"
+      ]
+    },
+    {
+      "id": "electronics-2",
+      "scheduleNames": [
+        "إلكترونيات 2"
+      ]
+    },
+    {
+      "id": "signals-and-systems",
+      "scheduleNames": [
+        "تحليل نظم وإشارات"
+      ]
+    },
+    {
+      "id": "computer-skills",
+      "scheduleNames": [
+        "مهارات الحاسب"
+      ]
+    },
+    {
+      "id": "databases",
+      "scheduleNames": [
+        "قواعد البيانات (قواعد المعطيات)"
+      ]
+    },
+    {
+      "id": "embedded-microcontrollers",
+      "scheduleNames": [
+        "متحكمات صغرية وأنظمة مضمنة"
+      ]
+    },
+    {
+      "id": "advanced-communications",
+      "scheduleNames": [
+        "اتصالات متقدمة 1"
+      ]
+    },
+    {
+      "id": "statistics-probability",
+      "scheduleNames": [
+        "إحصاء واحتمالات"
+      ]
+    },
+    {
+      "id": "formal-languages",
+      "scheduleNames": [
+        "اللغات الصورية والآلة"
+      ]
+    },
+    {
+      "id": "arabic-language-1",
+      "scheduleNames": [
+        "عربي 1"
+      ]
+    },
+    {
+      "id": "technical-english-2",
+      "scheduleNames": [
+        "اللغة الانكليزية 2"
+      ]
+    }
+  ]
+}

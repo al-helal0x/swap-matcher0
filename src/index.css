@@ -1,0 +1,115 @@
+/* ⚠️ ملف مملوك لعضو 1 (الثيم ونظام التصميم).
+   الهوية البصرية: "أرشيف" — بطاقات فهرسة مكتبة + مخطط هندسي (يليق بمواد
+   مثل الدارات وقواعد البيانات). ورقي دافئ بالوضع الفاتح، مخطط أزرق ليلي
+   بالوضع المظلم، مع لمسة "ختم حبر" كهربة لونية مشتركة بين الحالتين.
+   أسماء المتغيرات ثابتة (القسم 4.1) — لا تُغيَّر، القيم فقط قابلة للتبديل. */
+
+@import "tailwindcss";
+
+:root {
+  /* --- وضع فاتح: ورق أرشيف دافئ + حبر --- */
+  --bg: #faf7f0;
+  --bg-subtle: #f1ebdd;
+  --bg-elevated: #ffffff;
+  --text: #241f16;
+  --text-h: #16130e;
+  --text-muted: #746a56;
+  --border: #ddd3bc;
+  --accent: #a8631a;
+  --accent-hover: #8c5215;
+  --warning-bg: #fff6df;
+  --warning-border: #e8c569;
+  --warning-text: #6b4d00;
+  --danger-bg: #fbeae7;
+  --danger-border: #e3a99c;
+  --danger-text: #8a2f1f;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #10151c;
+    --bg-subtle: #161d27;
+    --bg-elevated: #1f2937;
+    --text: #e8e3d5;
+    --text-h: #fdfaf0;
+    --text-muted: #96a1ae;
+    --border: #2c3746;
+    --accent: #e8a33d;
+    --accent-hover: #f0b656;
+    --warning-bg: #332705;
+    --warning-border: #7a5c00;
+    --warning-text: #f5d67a;
+    --danger-bg: #33130f;
+    --danger-border: #7a3324;
+    --danger-text: #f2a48f;
+  }
+}
+
+/* التبديل اليدوي (ThemeContext.jsx يضبط data-theme على <html>).
+   نفس قيم كل حالة، بغض النظر عن تفضيل نظام التشغيل. */
+[data-theme="light"] {
+  --bg: #faf7f0;
+  --bg-subtle: #f1ebdd;
+  --bg-elevated: #ffffff;
+  --text: #241f16;
+  --text-h: #16130e;
+  --text-muted: #746a56;
+  --border: #ddd3bc;
+  --accent: #a8631a;
+  --accent-hover: #8c5215;
+  --warning-bg: #fff6df;
+  --warning-border: #e8c569;
+  --warning-text: #6b4d00;
+  --danger-bg: #fbeae7;
+  --danger-border: #e3a99c;
+  --danger-text: #8a2f1f;
+}
+
+[data-theme="dark"] {
+  --bg: #10151c;
+  --bg-subtle: #161d27;
+  --bg-elevated: #1f2937;
+  --text: #e8e3d5;
+  --text-h: #fdfaf0;
+  --text-muted: #96a1ae;
+  --border: #2c3746;
+  --accent: #e8a33d;
+  --accent-hover: #f0b656;
+  --warning-bg: #332705;
+  --warning-border: #7a5c00;
+  --warning-text: #f5d67a;
+  --danger-bg: #33130f;
+  --danger-border: #7a3324;
+  --danger-text: #f2a48f;
+}
+
+@theme {
+  --color-bg: var(--bg);
+  --color-bg-subtle: var(--bg-subtle);
+  --color-bg-elevated: var(--bg-elevated);
+  --color-text: var(--text);
+  --color-text-h: var(--text-h);
+  --color-text-muted: var(--text-muted);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-warning-bg: var(--warning-bg);
+  --color-warning-border: var(--warning-border);
+  --color-warning-text: var(--warning-text);
+  --color-danger-bg: var(--danger-bg);
+  --color-danger-border: var(--danger-border);
+  --color-danger-text: var(--danger-text);
+}
+
+/* انتقال هادئ عند التبديل اليدوي، دون التأثير على أول رسم للصفحة */
+body,
+body * {
+  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body,
+  body * {
+    transition: none;
+  }
+}

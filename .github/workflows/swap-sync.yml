@@ -1,0 +1,67 @@
+# 🔁 «مُطابِق تبديل الفئات» — يحوّل طلبات الطلاب (PRs بعنوان [swap]) إلى
+# swap-data/swaps.json تلقائياً (خارج public/، لا يُنشَر مع الموقع) ثم يغلق الـ PR.
+# يقبل فقط المواد المفتوحة حالياً بـ public/data/swap-settings.json (يعيّنها الأدمن).
+# يعمل بـ GITHUB_TOKEN الافتراضي (نفس فلسفة scheduled-publish.yml) — لا توكن إضافي.
+#
+# المتطلب الوحيد بإعدادات الريبو: Settings → Actions → General → Workflow
+# permissions = "Read and write permissions".
+
+name: Swap Sync
+
+on:
+  pull_request:
+    types: [opened, reopened]
+  schedule:
+    - cron: "*/15 * * * *" # شبكة أمان لو فشلت دورة أو تأخر تشغيل
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: swap-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    if: github.event_name != 'pull_request' || startsWith(github.event.pull_request.title, '[swap')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Process swap requests
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node .github/scripts/sync-swaps.mjs
+
+      - name: Commit and push
+        id: push
+        run: |
+          git config user.name "assistant404-swap-sync"
+          git config user.email "actions@github.com"
+          git add swap-data/swaps.json
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "لا تغييرات."
+          else
+            git commit -m "🔁 تحديث طلبات تبديل الفئات"
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push && break
+              sleep 5
+            done
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Close processed PRs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node .github/scripts/sync-swaps.mjs --close

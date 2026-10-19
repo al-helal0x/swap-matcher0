@@ -1,0 +1,1627 @@
+{
+  "meta": {
+    "program": "هندسة المعلوماتية",
+    "faculty": "كلية الهندسة",
+    "university": "جامعة قاسيون الخاصة للعلوم والتكنولوجيا",
+    "degree": "إجازة في الهندسة المعلوماتية",
+    "totalCredits": 172,
+    "compulsoryCredits": 149,
+    "electiveCredits": 23,
+    "duration": "خمس سنوات (10 مستويات)",
+    "approval": "قرار وزير التعليم العالي رقم 118 (14/11/2024) استناداً إلى قرار مجلس التعليم العالي رقم 53 (13/10/2024)",
+    "creditBreakdown": {
+      "university": {
+        "required": 11,
+        "elective": 8
+      },
+      "college": {
+        "required": 14
+      },
+      "department": {
+        "required": 90
+      },
+      "track": {
+        "required": 34,
+        "elective": 15
+      }
+    }
+  },
+  "tracks": [
+    {
+      "id": "software",
+      "name": "هندسة البرمجيات ونظم المعلومات"
+    },
+    {
+      "id": "ai",
+      "name": "الذكاء الصنعي"
+    },
+    {
+      "id": "networks",
+      "name": "النظم والشبكات الحاسوبية"
+    }
+  ],
+  "courses": [
+    {
+      "id": "computer-skills",
+      "name": "مهارات الحاسوب",
+      "code": "1110500",
+      "hidden": false,
+      "credits": 3,
+      "theory": 1,
+      "lab": 4,
+      "category": "university_required",
+      "prerequisites": []
+    },
+    {
+      "id": "arabic-language-1",
+      "name": "اللغة العربية (1)",
+      "code": "3110000",
+      "hidden": false,
+      "credits": 2,
+      "theory": 2,
+      "lab": 0,
+      "category": "university_required",
+      "prerequisites": []
+    },
+    {
+      "id": "english-language-1",
+      "name": "اللغة الإنجليزية (1)",
+      "code": "3210000",
+      "hidden": false,
+      "credits": 3,
+      "theory": 3,
+      "lab": 0,
+      "category": "university_required",
+      "prerequisites": []
+    },
+    {
+      "id": "technical-english-2",
+      "name": "لغة إنجليزية تخصصية (2)",
+      "code": "3210001",
+      "hidden": false,
+      "credits": 3,
+      "theory": 3,
+      "lab": 0,
+      "category": "university_required",
+      "prerequisites": [
+        "english-language-1"
+      ]
+    },
+    {
+      "id": "arabic-language-2",
+      "name": "اللغة العربية (2)",
+      "code": "3120001",
+      "hidden": false,
+      "credits": 2,
+      "theory": 2,
+      "lab": 0,
+      "category": "university_elective",
+      "prerequisites": [
+        "arabic-language-1"
+      ]
+    },
+    {
+      "id": "english-writing-skills",
+      "name": "مهارات الكتابة باللغة الإنكليزية",
+      "code": "3230002",
+      "hidden": false,
+      "credits": 2,
+      "theory": 2,
+      "lab": 0,
+      "category": "university_elective",
+      "prerequisites": []
+    },
+    {
+      "id": "english-communication-skills",
+      "name": "مهارات الاتصال باللغة الإنكليزية",
+      "code": "3230003",
+      "hidden": false,
+      "credits": 2,
+      "theory": 2,
+      "lab": 0,
+      "category": "university_elective",
+      "prerequisites": []
+    },
+    {
+      "id": "economics",
+      "name": "علم الاقتصاد",
+      "code": "3000022",
+      "hidden": false,
+      "credits": 2,
+      "theory": 2,
+      "lab": 0,
+      "category": "university_elective",
+      "prerequisites": []
+    },
+    {
+      "id": "environment-society",
+      "name": "بيئة ومجتمع",
+      "code": "4530000",
+      "hidden": false,
+      "credits": 2,
+      "theory": 2,
+      "lab": 0,
+      "category": "university_elective",
+      "prerequisites": []
+    },
+    {
+      "id": "public-health",
+      "name": "الصحة العامة",
+      "code": "3000144",
+      "hidden": false,
+      "credits": 2,
+      "theory": 2,
+      "lab": 0,
+      "category": "university_elective",
+      "prerequisites": []
+    },
+    {
+      "id": "national-culture",
+      "name": "الثقافة القومية",
+      "code": "2000246",
+      "hidden": false,
+      "credits": 2,
+      "theory": 2,
+      "lab": 0,
+      "category": "university_elective",
+      "prerequisites": []
+    },
+    {
+      "id": "contemporary-issues",
+      "name": "قضايا معاصرة",
+      "code": "4000347",
+      "hidden": false,
+      "credits": 2,
+      "theory": 2,
+      "lab": 0,
+      "category": "university_elective",
+      "prerequisites": []
+    },
+    {
+      "id": "civilizations",
+      "name": "الحضارات (العربية والإسلامية والعالمية)",
+      "code": "3000448",
+      "hidden": false,
+      "credits": 2,
+      "theory": 2,
+      "lab": 0,
+      "category": "university_elective",
+      "prerequisites": []
+    },
+    {
+      "id": "rhetoric-dialogue",
+      "name": "فن الحوار والخطابة",
+      "code": "3000231",
+      "hidden": false,
+      "credits": 2,
+      "theory": 2,
+      "lab": 0,
+      "category": "university_elective",
+      "prerequisites": []
+    },
+    {
+      "id": "engineers-communication-skills",
+      "name": "مهارات الاتصال للمهندسين",
+      "code": "1150000",
+      "hidden": false,
+      "credits": 1,
+      "theory": 1,
+      "lab": 0,
+      "category": "college",
+      "prerequisites": []
+    },
+    {
+      "id": "engineering-workshops",
+      "name": "ورشات هندسية",
+      "code": "1310000",
+      "hidden": false,
+      "credits": 1,
+      "theory": 0,
+      "lab": 2,
+      "category": "college",
+      "prerequisites": []
+    },
+    {
+      "id": "math-1",
+      "name": "رياضيات (1)",
+      "code": "4310000",
+      "hidden": false,
+      "credits": 4,
+      "theory": 4,
+      "lab": 0,
+      "category": "college",
+      "prerequisites": []
+    },
+    {
+      "id": "math-2",
+      "name": "رياضيات (2)",
+      "code": "4310001",
+      "hidden": false,
+      "credits": 3,
+      "theory": 3,
+      "lab": 0,
+      "category": "college",
+      "prerequisites": [
+        "math-1"
+      ]
+    },
+    {
+      "id": "physics-1",
+      "name": "الفيزياء (1)",
+      "code": "4110000",
+      "hidden": false,
+      "credits": 4,
+      "theory": 3,
+      "lab": 2,
+      "category": "college",
+      "prerequisites": []
+    },
+    {
+      "id": "engineering-ethics",
+      "name": "أخلاقيات مهنة الهندسة",
+      "code": "1130001",
+      "hidden": false,
+      "credits": 1,
+      "theory": 1,
+      "lab": 0,
+      "category": "college",
+      "prerequisites": [],
+      "prerequisiteCredits": 40
+    },
+    {
+      "id": "programming-principles",
+      "name": "مبادئ البرمجة",
+      "code": "1110501",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "department",
+      "prerequisites": []
+    },
+    {
+      "id": "engineering-economics",
+      "name": "الاقتصاد الهندسي",
+      "code": "2210002",
+      "hidden": false,
+      "credits": 3,
+      "theory": 3,
+      "lab": 0,
+      "category": "department",
+      "prerequisites": []
+    },
+    {
+      "id": "programming-1",
+      "name": "برمجة (1)",
+      "code": "1110502",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "department",
+      "prerequisites": [
+        "programming-principles"
+      ]
+    },
+    {
+      "id": "circuits",
+      "name": "الدارات الكهربائية",
+      "code": "1110100",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "department",
+      "prerequisites": [
+        "physics-1"
+      ]
+    },
+    {
+      "id": "electronics-1",
+      "name": "الإلكترونيات (1)",
+      "code": "1120200",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "department",
+      "prerequisites": [
+        "circuits"
+      ]
+    },
+    {
+      "id": "math-3",
+      "name": "رياضيات (3)",
+      "code": "4320003",
+      "hidden": false,
+      "credits": 3,
+      "theory": 3,
+      "lab": 0,
+      "category": "department",
+      "prerequisites": [
+        "math-2"
+      ]
+    },
+    {
+      "id": "statistics-probability",
+      "name": "الإحصاء والاحتمالات",
+      "code": "4320004",
+      "hidden": false,
+      "credits": 3,
+      "theory": 3,
+      "lab": 0,
+      "category": "department",
+      "prerequisites": [
+        "math-2"
+      ]
+    },
+    {
+      "id": "programming-2",
+      "name": "برمجة (2)",
+      "code": "1120503",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "department",
+      "prerequisites": [
+        "programming-1"
+      ]
+    },
+    {
+      "id": "digital-logic",
+      "name": "المنطق الرقمي",
+      "code": "1120201",
+      "hidden": false,
+      "credits": 4,
+      "theory": 3,
+      "lab": 2,
+      "category": "department",
+      "prerequisites": [
+        "circuits"
+      ]
+    },
+    {
+      "id": "algorithms-data-structures",
+      "name": "خوارزميات وبنى معطيات",
+      "code": "1120504",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "department",
+      "prerequisites": [
+        "programming-2"
+      ]
+    },
+    {
+      "id": "discrete-math",
+      "name": "رياضيات متقطعة",
+      "code": "4320005",
+      "hidden": false,
+      "credits": 3,
+      "theory": 3,
+      "lab": 0,
+      "category": "department",
+      "prerequisites": [
+        "math-2"
+      ]
+    },
+    {
+      "id": "computer-architecture",
+      "name": "بنيان الحاسوب",
+      "code": "1120400",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "department",
+      "prerequisites": [
+        "digital-logic"
+      ]
+    },
+    {
+      "id": "electronics-2",
+      "name": "الإلكترونيات (2)",
+      "code": "1120202",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "department",
+      "prerequisites": [
+        "electronics-1"
+      ]
+    },
+    {
+      "id": "signals-and-systems",
+      "name": "تحليل النظم والإشارات",
+      "code": "1120900",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "department",
+      "prerequisites": [
+        "math-3"
+      ]
+    },
+    {
+      "id": "microprocessors",
+      "name": "المعالجات الصغرية",
+      "code": "1130401",
+      "hidden": false,
+      "credits": 4,
+      "theory": 3,
+      "lab": 2,
+      "category": "department",
+      "prerequisites": [
+        "computer-architecture"
+      ]
+    },
+    {
+      "id": "databases",
+      "name": "قواعد المعطيات",
+      "code": "1130700",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "department",
+      "prerequisites": [
+        "algorithms-data-structures"
+      ]
+    },
+    {
+      "id": "communications",
+      "name": "الاتصالات",
+      "code": "1130300",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "department",
+      "prerequisites": [
+        "signals-and-systems"
+      ]
+    },
+    {
+      "id": "numerical-analysis",
+      "name": "التحليل العددي",
+      "code": "4330006",
+      "hidden": false,
+      "credits": 3,
+      "theory": 3,
+      "lab": 0,
+      "category": "department",
+      "prerequisites": [
+        "statistics-probability"
+      ]
+    },
+    {
+      "id": "programming-languages",
+      "name": "لغات البرمجة",
+      "code": "1130505",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "department",
+      "prerequisites": [
+        "programming-2"
+      ]
+    },
+    {
+      "id": "advanced-communications",
+      "name": "الاتصالات المتقدمة",
+      "code": "1130301",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "department",
+      "prerequisites": [
+        "communications"
+      ]
+    },
+    {
+      "id": "operations-research",
+      "name": "بحوث العمليات",
+      "code": "4330007",
+      "hidden": false,
+      "credits": 3,
+      "theory": 3,
+      "lab": 0,
+      "category": "department",
+      "prerequisites": [
+        "numerical-analysis"
+      ]
+    },
+    {
+      "id": "computer-networks",
+      "name": "شبكات الحاسوب",
+      "code": "1130800",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "department",
+      "prerequisites": [
+        "communications"
+      ]
+    },
+    {
+      "id": "operating-systems",
+      "name": "أنظمة التشغيل",
+      "code": "1140600",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "department",
+      "prerequisites": [
+        "computer-architecture"
+      ]
+    },
+    {
+      "id": "intro-ai",
+      "name": "مبادئ الذكاء الصنعي",
+      "code": "1141000",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "department",
+      "prerequisites": [
+        "programming-languages"
+      ]
+    },
+    {
+      "id": "formal-languages",
+      "name": "اللغات الصورية",
+      "code": "1141001",
+      "hidden": false,
+      "credits": 3,
+      "theory": 3,
+      "lab": 0,
+      "category": "department",
+      "prerequisites": [
+        "discrete-math"
+      ]
+    },
+    {
+      "id": "software-analysis-design",
+      "name": "تحليل وتصميم النظم البرمجية",
+      "code": "1141100",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "department",
+      "prerequisites": [
+        "databases"
+      ]
+    },
+    {
+      "id": "advanced-algorithms",
+      "name": "خوارزميات متقدمة",
+      "code": "0730511",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "department",
+      "prerequisites": [
+        "algorithms-data-structures"
+      ]
+    },
+    {
+      "id": "parallel-programming",
+      "name": "البرمجة التفرعية",
+      "code": "1050811",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "department",
+      "prerequisites": [
+        "programming-languages"
+      ]
+    },
+    {
+      "id": "graduation-project-1",
+      "name": "مشروع التخرج (1)",
+      "code": "1151200",
+      "hidden": false,
+      "credits": 1,
+      "theory": 0,
+      "lab": 2,
+      "category": "department",
+      "prerequisites": [],
+      "prerequisiteCredits": 90
+    },
+    {
+      "id": "graduation-project-2",
+      "name": "مشروع التخرج (2)",
+      "code": "1151201",
+      "hidden": false,
+      "credits": 3,
+      "theory": 0,
+      "lab": 0,
+      "category": "department",
+      "prerequisites": [],
+      "prerequisiteCredits": 120
+    },
+    {
+      "id": "compilers",
+      "name": "المترجمات",
+      "code": "1140601",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "track",
+      "prerequisites": [
+        "formal-languages"
+      ],
+      "tracks": {
+        "software": "required",
+        "ai": "required"
+      }
+    },
+    {
+      "id": "software-engineering-1",
+      "name": "هندسة البرمجيات 1",
+      "code": "1141101",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "track",
+      "prerequisites": [
+        "software-analysis-design"
+      ],
+      "tracks": {
+        "software": "required"
+      }
+    },
+    {
+      "id": "software-engineering-2",
+      "name": "هندسة البرمجيات 2",
+      "code": "1141102",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "track",
+      "prerequisites": [
+        "software-engineering-1"
+      ],
+      "tracks": {
+        "software": "required"
+      }
+    },
+    {
+      "id": "advanced-databases",
+      "name": "قواعد المعطيات المتقدمة",
+      "code": "0140711",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "track",
+      "prerequisites": [
+        "databases"
+      ],
+      "tracks": {
+        "software": "required"
+      }
+    },
+    {
+      "id": "graph-theory-cad",
+      "name": "نظرية البيان والتصميم بمعونة الحاسب",
+      "code": "1151202",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "track",
+      "prerequisites": [
+        "algorithms-data-structures"
+      ],
+      "tracks": {
+        "software": "required",
+        "ai": "required",
+        "networks": "required"
+      }
+    },
+    {
+      "id": "multimedia-systems",
+      "name": "الوسائط المتعددة ونظم الوسائط الترابطية",
+      "code": "1150804",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "track",
+      "prerequisites": [
+        "computer-networks"
+      ],
+      "tracks": {
+        "software": "required",
+        "ai": "required",
+        "networks": "required"
+      }
+    },
+    {
+      "id": "infosec-cybersecurity",
+      "name": "أمن نظم المعلومات والأمن السيبراني",
+      "code": "1151203",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "track",
+      "prerequisites": [
+        "advanced-communications"
+      ],
+      "tracks": {
+        "software": "required",
+        "ai": "required",
+        "networks": "required"
+      }
+    },
+    {
+      "id": "web-programming",
+      "name": "برمجة الويب",
+      "code": "0608114",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "track",
+      "prerequisites": [
+        "computer-networks"
+      ],
+      "tracks": {
+        "software": "required"
+      }
+    },
+    {
+      "id": "distributed-systems",
+      "name": "النظم الموزعة وتطبيقاتها",
+      "code": "0950811",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "track",
+      "prerequisites": [
+        "operating-systems"
+      ],
+      "tracks": {
+        "software": "required",
+        "ai": "elective",
+        "networks": "required"
+      }
+    },
+    {
+      "id": "project-management",
+      "name": "إدارة المشاريع",
+      "code": "1151204",
+      "hidden": false,
+      "credits": 1,
+      "theory": 0,
+      "lab": 2,
+      "category": "track",
+      "prerequisites": [
+        "software-analysis-design"
+      ],
+      "tracks": {
+        "software": "required",
+        "ai": "required",
+        "networks": "required"
+      }
+    },
+    {
+      "id": "information-systems-engineering",
+      "name": "هندسة نظم المعلومات",
+      "code": "1151110",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "track",
+      "prerequisites": [
+        "software-engineering-2"
+      ],
+      "tracks": {
+        "software": "required"
+      }
+    },
+    {
+      "id": "compilers-project",
+      "name": "مشروع مترجمات",
+      "code": "1151102",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "track",
+      "prerequisites": [
+        "compilers"
+      ],
+      "tracks": {
+        "software": "required"
+      }
+    },
+    {
+      "id": "smart-search-algorithms",
+      "name": "خوارزميات البحث الذكية",
+      "code": "0341011",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "track",
+      "prerequisites": [
+        "intro-ai"
+      ],
+      "tracks": {
+        "software": "elective",
+        "ai": "required",
+        "networks": "elective"
+      }
+    },
+    {
+      "id": "modeling-simulation",
+      "name": "النمذجة والمحاكاة",
+      "code": "1150506",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "track",
+      "prerequisites": [
+        "programming-languages"
+      ],
+      "tracks": {
+        "software": "elective",
+        "ai": "elective",
+        "networks": "elective"
+      }
+    },
+    {
+      "id": "enterprise-economics-management",
+      "name": "الاقتصاد والإدارة في المؤسسات",
+      "code": "1141212",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "track",
+      "prerequisites": [
+        "engineers-communication-skills"
+      ],
+      "tracks": {
+        "software": "elective",
+        "ai": "elective",
+        "networks": "elective"
+      }
+    },
+    {
+      "id": "embedded-microcontrollers",
+      "name": "المتحكمات الصغرية والأنظمة المضمنة",
+      "code": "0330411",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "track",
+      "prerequisites": [
+        "computer-architecture"
+      ],
+      "tracks": {
+        "software": "elective",
+        "ai": "elective",
+        "networks": "elective"
+      }
+    },
+    {
+      "id": "ecommerce",
+      "name": "الأعمال والتجارة الإلكترونية",
+      "code": "0730811",
+      "hidden": false,
+      "credits": 3,
+      "theory": 3,
+      "lab": 0,
+      "category": "track",
+      "prerequisites": [
+        "databases"
+      ],
+      "tracks": {
+        "software": "elective",
+        "ai": "elective",
+        "networks": "elective"
+      }
+    },
+    {
+      "id": "data-mining-expert-systems",
+      "name": "التنقيب في المعلومات والنظم الخبيرة",
+      "code": "0551011",
+      "hidden": false,
+      "credits": 3,
+      "theory": 3,
+      "lab": 0,
+      "category": "track",
+      "prerequisites": [
+        "intro-ai"
+      ],
+      "tracks": {
+        "software": "elective",
+        "ai": "required",
+        "networks": "elective"
+      }
+    },
+    {
+      "id": "mobile-apps",
+      "name": "تطبيقات الموبايل",
+      "code": "1150505",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "track",
+      "prerequisites": [
+        "programming-languages"
+      ],
+      "tracks": {
+        "software": "elective",
+        "networks": "elective"
+      }
+    },
+    {
+      "id": "information-retrieval",
+      "name": "استرجاع المعلومات",
+      "code": "1151010",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "track",
+      "prerequisites": [
+        "data-mining-expert-systems"
+      ],
+      "tracks": {
+        "software": "elective",
+        "ai": "elective"
+      }
+    },
+    {
+      "id": "software-maintenance-reverse-engineering",
+      "name": "صيانة البرمجيات والهندسة العكسية",
+      "code": "1151111",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "track",
+      "prerequisites": [
+        "software-engineering-2"
+      ],
+      "tracks": {
+        "software": "elective"
+      }
+    },
+    {
+      "id": "game-theory",
+      "name": "نظرية الألعاب",
+      "code": "1151011",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "track",
+      "prerequisites": [
+        "advanced-algorithms"
+      ],
+      "tracks": {
+        "software": "elective"
+      }
+    },
+    {
+      "id": "machine-learning",
+      "name": "تعلم الآلة",
+      "code": "0651011",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "track",
+      "prerequisites": [
+        "intro-ai"
+      ],
+      "tracks": {
+        "ai": "required",
+        "networks": "elective"
+      }
+    },
+    {
+      "id": "neural-networks",
+      "name": "الشبكات العصبونية",
+      "code": "1151002",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "track",
+      "prerequisites": [
+        "intro-ai"
+      ],
+      "tracks": {
+        "ai": "required"
+      }
+    },
+    {
+      "id": "natural-language-processing",
+      "name": "معالجة لغات طبيعية",
+      "code": "0751011",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "track",
+      "prerequisites": [
+        "machine-learning"
+      ],
+      "tracks": {
+        "ai": "required"
+      }
+    },
+    {
+      "id": "digital-image-processing",
+      "name": "معالجة الصورة الرقمية",
+      "code": "0951011",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "track",
+      "prerequisites": [
+        "signals-and-systems",
+        "multimedia-systems"
+      ],
+      "tracks": {
+        "ai": "required"
+      }
+    },
+    {
+      "id": "fuzzy-logic-genetic-algorithms",
+      "name": "المنطق العائم والخوارزميات الجينية",
+      "code": "0851011",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "track",
+      "prerequisites": [
+        "intro-ai"
+      ],
+      "tracks": {
+        "ai": "required"
+      }
+    },
+    {
+      "id": "control-1",
+      "name": "تحكم 1",
+      "code": "0130111",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "track",
+      "prerequisites": [
+        "math-3"
+      ],
+      "tracks": {
+        "ai": "elective",
+        "networks": "elective"
+      }
+    },
+    {
+      "id": "knowledge-base-systems",
+      "name": "نظم قواعد المعرفة",
+      "code": "1141012",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "track",
+      "prerequisites": [
+        "intro-ai"
+      ],
+      "tracks": {
+        "ai": "elective"
+      }
+    },
+    {
+      "id": "robotics",
+      "name": "روبوت",
+      "code": "0451011",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "track",
+      "prerequisites": [
+        "intro-ai"
+      ],
+      "tracks": {
+        "ai": "elective"
+      }
+    },
+    {
+      "id": "pattern-recognition",
+      "name": "التعرف على الأشكال",
+      "code": "1051011",
+      "hidden": false,
+      "credits": 3,
+      "theory": 3,
+      "lab": 0,
+      "category": "track",
+      "prerequisites": [
+        "machine-learning",
+        "digital-image-processing"
+      ],
+      "tracks": {
+        "ai": "elective"
+      }
+    },
+    {
+      "id": "network-protocols",
+      "name": "بروتوكولات الشبكات",
+      "code": "1140801",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "track",
+      "prerequisites": [
+        "computer-networks"
+      ],
+      "tracks": {
+        "networks": "required"
+      }
+    },
+    {
+      "id": "advanced-operating-systems",
+      "name": "أنظمة التشغيل المتقدمة",
+      "code": "0206114",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "track",
+      "prerequisites": [
+        "operating-systems"
+      ],
+      "tracks": {
+        "networks": "required"
+      }
+    },
+    {
+      "id": "network-programming",
+      "name": "برمجة الشبكات",
+      "code": "1140802",
+      "hidden": false,
+      "credits": 4,
+      "theory": 3,
+      "lab": 2,
+      "category": "track",
+      "prerequisites": [
+        "network-protocols"
+      ],
+      "tracks": {
+        "networks": "required"
+      }
+    },
+    {
+      "id": "real-time-systems",
+      "name": "نظم الزمن الحقيقي",
+      "code": "0350611",
+      "hidden": false,
+      "credits": 3,
+      "theory": 2,
+      "lab": 2,
+      "category": "track",
+      "prerequisites": [
+        "operating-systems"
+      ],
+      "tracks": {
+        "networks": "required"
+      }
+    },
+    {
+      "id": "computer-network-management",
+      "name": "إدارة الشبكات الحاسوبية",
+      "code": "1150803",
+      "hidden": false,
+      "credits": 3,
+      "theory": 3,
+      "lab": 0,
+      "category": "track",
+      "prerequisites": [
+        "network-protocols"
+      ],
+      "tracks": {
+        "networks": "required"
+      }
+    },
+    {
+      "id": "network-and-systems-security",
+      "name": "أمن الشبكات والنظم الحاسوبية",
+      "code": "1150805",
+      "hidden": false,
+      "credits": 3,
+      "theory": 3,
+      "lab": 0,
+      "category": "track",
+      "prerequisites": [
+        "network-protocols"
+      ],
+      "tracks": {
+        "networks": "required"
+      }
+    },
+    {
+      "id": "computer-network-design",
+      "name": "تصميم الشبكات الحاسوبية",
+      "code": "1150810",
+      "hidden": false,
+      "credits": 2,
+      "theory": 1,
+      "lab": 2,
+      "category": "track",
+      "prerequisites": [
+        "computer-networks"
+      ],
+      "tracks": {
+        "networks": "required"
+      }
+    },
+    {
+      "id": "wireless-networks",
+      "name": "الشبكات اللاسلكية",
+      "code": "1150310",
+      "hidden": false,
+      "credits": 3,
+      "theory": 3,
+      "lab": 0,
+      "category": "track",
+      "prerequisites": [
+        "network-protocols"
+      ],
+      "tracks": {
+        "networks": "elective"
+      }
+    }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "year": 1,
+      "semester": 1,
+      "courses": [
+        "computer-skills",
+        "english-language-1",
+        "math-1",
+        "physics-1",
+        "programming-principles",
+        "engineering-workshops"
+      ]
+    },
+    {
+      "level": 2,
+      "year": 1,
+      "semester": 2,
+      "courses": [
+        "arabic-language-1",
+        "technical-english-2",
+        "math-2",
+        "engineering-economics",
+        "programming-1",
+        "circuits"
+      ]
+    },
+    {
+      "level": 3,
+      "year": 2,
+      "semester": 1,
+      "courses": [
+        "electronics-1",
+        "math-3",
+        "statistics-probability",
+        "programming-2",
+        "digital-logic"
+      ]
+    },
+    {
+      "level": 4,
+      "year": 2,
+      "semester": 2,
+      "courses": [
+        "algorithms-data-structures",
+        "discrete-math",
+        "computer-architecture",
+        "electronics-2",
+        "signals-and-systems",
+        {
+          "type": "elective",
+          "label": "اختياري جامعة (1)",
+          "credits": 2,
+          "pool": "university"
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "year": 3,
+      "semester": 1,
+      "courses": [
+        "microprocessors",
+        "databases",
+        "communications",
+        "numerical-analysis",
+        "programming-languages",
+        {
+          "type": "elective",
+          "label": "اختياري جامعة (2)",
+          "credits": 2,
+          "pool": "university"
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "year": 3,
+      "semester": 2,
+      "courses": [
+        "operating-systems",
+        "advanced-communications",
+        "operations-research",
+        "computer-networks",
+        "intro-ai",
+        "formal-languages"
+      ]
+    },
+    {
+      "level": 7,
+      "year": 4,
+      "semester": 1,
+      "tracks": {
+        "software": [
+          "advanced-algorithms",
+          "software-analysis-design",
+          "parallel-programming",
+          "compilers",
+          {
+            "type": "elective",
+            "label": "اختياري قسم 1",
+            "credits": 3,
+            "pool": "track"
+          },
+          {
+            "type": "elective",
+            "label": "اختياري جامعة (3)",
+            "credits": 2,
+            "pool": "university"
+          },
+          "engineering-ethics"
+        ],
+        "ai": [
+          "advanced-algorithms",
+          "software-analysis-design",
+          "parallel-programming",
+          "compilers",
+          {
+            "type": "elective",
+            "label": "اختياري قسم 1",
+            "credits": 3,
+            "pool": "track"
+          },
+          {
+            "type": "elective",
+            "label": "اختياري جامعة (3)",
+            "credits": 2,
+            "pool": "university"
+          },
+          "engineering-ethics"
+        ],
+        "networks": [
+          "advanced-algorithms",
+          "software-analysis-design",
+          "formal-languages",
+          "parallel-programming",
+          "network-protocols",
+          {
+            "type": "elective",
+            "label": "اختياري قسم 1",
+            "credits": 3,
+            "pool": "track"
+          }
+        ]
+      }
+    },
+    {
+      "level": 8,
+      "year": 4,
+      "semester": 2,
+      "tracks": {
+        "software": [
+          "software-engineering-1",
+          "graph-theory-cad",
+          "advanced-databases",
+          "multimedia-systems",
+          {
+            "type": "elective",
+            "label": "اختياري قسم 2",
+            "credits": 3,
+            "pool": "track"
+          },
+          {
+            "type": "elective",
+            "label": "اختياري جامعة (4)",
+            "credits": 2,
+            "pool": "university"
+          }
+        ],
+        "ai": [
+          "graph-theory-cad",
+          "multimedia-systems",
+          "neural-networks",
+          "smart-search-algorithms",
+          {
+            "type": "elective",
+            "label": "اختياري قسم 2",
+            "credits": 3,
+            "pool": "track"
+          },
+          {
+            "type": "elective",
+            "label": "اختياري جامعة (4)",
+            "credits": 2,
+            "pool": "university"
+          }
+        ],
+        "networks": [
+          "graph-theory-cad",
+          "multimedia-systems",
+          "advanced-operating-systems",
+          "network-programming",
+          {
+            "type": "elective",
+            "label": "اختياري قسم 2",
+            "credits": 3,
+            "pool": "track"
+          },
+          {
+            "type": "elective",
+            "label": "اختياري جامعة (4)",
+            "credits": 2,
+            "pool": "university"
+          }
+        ]
+      }
+    },
+    {
+      "level": 9,
+      "year": 5,
+      "semester": 1,
+      "tracks": {
+        "software": [
+          "compilers-project",
+          "software-engineering-2",
+          "web-programming",
+          "project-management",
+          "engineers-communication-skills",
+          {
+            "type": "elective",
+            "label": "اختياري قسم 3",
+            "credits": 3,
+            "pool": "track"
+          },
+          "graduation-project-1"
+        ],
+        "ai": [
+          "machine-learning",
+          "natural-language-processing",
+          "digital-image-processing",
+          "project-management",
+          "engineers-communication-skills",
+          {
+            "type": "elective",
+            "label": "اختياري قسم 3",
+            "credits": 3,
+            "pool": "track"
+          },
+          "graduation-project-1"
+        ],
+        "networks": [
+          "computer-network-management",
+          "real-time-systems",
+          "network-and-systems-security",
+          "project-management",
+          "engineers-communication-skills",
+          {
+            "type": "elective",
+            "label": "اختياري قسم 3",
+            "credits": 3,
+            "pool": "track"
+          },
+          "graduation-project-1"
+        ]
+      }
+    },
+    {
+      "level": 10,
+      "year": 5,
+      "semester": 2,
+      "tracks": {
+        "software": [
+          "distributed-systems",
+          "information-systems-engineering",
+          "infosec-cybersecurity",
+          {
+            "type": "elective",
+            "label": "اختياري قسم 4",
+            "credits": 3,
+            "pool": "track"
+          },
+          {
+            "type": "elective",
+            "label": "اختياري قسم 5",
+            "credits": 3,
+            "pool": "track"
+          },
+          "graduation-project-2"
+        ],
+        "ai": [
+          "fuzzy-logic-genetic-algorithms",
+          "data-mining-expert-systems",
+          "infosec-cybersecurity",
+          {
+            "type": "elective",
+            "label": "اختياري قسم 4",
+            "credits": 3,
+            "pool": "track"
+          },
+          {
+            "type": "elective",
+            "label": "اختياري قسم 5",
+            "credits": 3,
+            "pool": "track"
+          },
+          "graduation-project-2"
+        ],
+        "networks": [
+          "distributed-systems",
+          "computer-network-design",
+          "infosec-cybersecurity",
+          {
+            "type": "elective",
+            "label": "اختياري قسم 4",
+            "credits": 3,
+            "pool": "track"
+          },
+          {
+            "type": "elective",
+            "label": "اختياري قسم 5",
+            "credits": 3,
+            "pool": "track"
+          },
+          "graduation-project-2"
+        ]
+      }
+    }
+  ]
+}
