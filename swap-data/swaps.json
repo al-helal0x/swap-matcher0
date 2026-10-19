@@ -1384,6 +1384,22 @@
       "contact": "0998918783",
       "createdAt": "2026-10-19T18:39:28Z",
       "prNumber": 62
+    },
+    {
+      "subjectId": "digital-logic",
+      "subjectName": "المنطق الرقمي",
+      "section": "lab",
+      "fromSlot": 4,
+      "mode": "custom",
+      "toSlots": [
+        2
+      ],
+      "id": "swp_1792435972801_uqjj",
+      "studentName": "صبا أيهم الزعبي",
+      "studentId": "20257084",
+      "contact": "0987200276",
+      "createdAt": "2026-10-19T18:52:59Z",
+      "prNumber": 63
     }
   ]
 }
