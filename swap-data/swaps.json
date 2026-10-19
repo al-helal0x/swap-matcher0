@@ -1086,6 +1086,74 @@
       "contact": "0962660942",
       "createdAt": "2026-10-19T17:57:03Z",
       "prNumber": 48
+    },
+    {
+      "subjectId": "electronics-1",
+      "subjectName": "الإلكترونيات (1)",
+      "section": "lab",
+      "fromSlot": 2,
+      "mode": "custom",
+      "toSlots": [
+        3
+      ],
+      "id": "swp_1792433134036_lzj1",
+      "studentName": "عدنان الراغب",
+      "studentId": "20257096",
+      "contact": "",
+      "createdAt": "2026-10-19T18:05:40Z",
+      "prNumber": 49
+    },
+    {
+      "subjectId": "programming-2",
+      "subjectName": "برمجة (2)",
+      "section": "lab",
+      "fromSlot": 3,
+      "mode": "custom",
+      "toSlots": [
+        2
+      ],
+      "id": "swp_1792433134036_lzj1_2",
+      "studentName": "عدنان الراغب",
+      "studentId": "20257096",
+      "contact": "",
+      "createdAt": "2026-10-19T18:05:40Z",
+      "prNumber": 49
+    },
+    {
+      "subjectId": "digital-logic",
+      "subjectName": "المنطق الرقمي",
+      "section": "lab",
+      "fromSlot": 1,
+      "mode": "custom",
+      "toSlots": [
+        2
+      ],
+      "id": "swp_1792433134036_lzj1_3",
+      "studentName": "عدنان الراغب",
+      "studentId": "20257096",
+      "contact": "",
+      "createdAt": "2026-10-19T18:05:40Z",
+      "prNumber": 49
+    },
+    {
+      "subjectId": "digital-logic",
+      "subjectName": "المنطق الرقمي",
+      "section": "theory",
+      "fromSlot": 1,
+      "mode": "agreed",
+      "toSlots": [
+        2
+      ],
+      "partner": {
+        "name": "محمد حسام النجار المصري",
+        "studentId": "20257073"
+      },
+      "id": "swp_1792433134036_lzj1_4",
+      "studentName": "عدنان الراغب",
+      "studentId": "20257096",
+      "contact": "",
+      "createdAt": "2026-10-19T18:05:40Z",
+      "prNumber": 49
     }
   ]
 }
