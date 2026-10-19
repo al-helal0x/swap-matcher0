@@ -1465,6 +1465,23 @@
       "contact": "0952548011",
       "createdAt": "2026-10-19T20:08:20Z",
       "prNumber": 69
+    },
+    {
+      "subjectId": "electronics-1",
+      "subjectName": "الإلكترونيات (1)",
+      "section": "lab",
+      "fromSlot": 6,
+      "mode": "custom",
+      "toSlots": [
+        1,
+        2
+      ],
+      "id": "swp_1792448287583_gkl3",
+      "studentName": "حسين محمد سامر الكومي",
+      "studentId": "20257043",
+      "contact": "0938369808",
+      "createdAt": "2026-10-19T22:18:12Z",
+      "prNumber": 71
     }
   ]
 }
