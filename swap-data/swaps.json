@@ -505,6 +505,23 @@
       "contact": "+963959975707",
       "createdAt": "2026-10-19T17:14:57Z",
       "prNumber": 26
+    },
+    {
+      "subjectId": "math-3",
+      "subjectName": "رياضيات (3)",
+      "section": "theory",
+      "fromSlot": 3,
+      "mode": "earlier",
+      "toSlots": [
+        1,
+        2
+      ],
+      "id": "swp_1792430115344_yd98",
+      "studentName": "محمد زهير عامر الحسو",
+      "studentId": "20257151",
+      "contact": "0981653618",
+      "createdAt": "2026-10-19T17:15:22Z",
+      "prNumber": 27
     }
   ]
 }
