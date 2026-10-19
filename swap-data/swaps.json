@@ -1401,6 +1401,23 @@
       "contact": "0962660942",
       "createdAt": "2026-10-19T19:10:33Z",
       "prNumber": 66
+    },
+    {
+      "subjectId": "digital-logic",
+      "subjectName": "المنطق الرقمي",
+      "section": "lab",
+      "fromSlot": 1,
+      "mode": "custom",
+      "toSlots": [
+        3,
+        4
+      ],
+      "id": "swp_1792437184031_lzhm",
+      "studentName": "سايا رضوان حمو",
+      "studentId": "20257070",
+      "contact": "0985578231",
+      "createdAt": "2026-10-19T19:15:07Z",
+      "prNumber": 67
     }
   ]
 }
