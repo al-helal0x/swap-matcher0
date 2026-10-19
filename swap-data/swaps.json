@@ -957,6 +957,23 @@
       "contact": "0931836289",
       "createdAt": "2026-10-19T17:47:52Z",
       "prNumber": 45
+    },
+    {
+      "subjectId": "programming-2",
+      "subjectName": "برمجة (2)",
+      "section": "theory",
+      "fromSlot": 3,
+      "mode": "earlier",
+      "toSlots": [
+        1,
+        2
+      ],
+      "id": "swp_1792432217298_m1u7",
+      "studentName": "بسام الحجاج الشريف",
+      "studentId": "20257028",
+      "contact": "0969823103",
+      "createdAt": "2026-10-19T17:50:29Z",
+      "prNumber": 46
     }
   ]
 }
