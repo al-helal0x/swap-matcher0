@@ -769,6 +769,22 @@
       "contact": "0962660942",
       "createdAt": "2026-10-19T17:22:00Z",
       "prNumber": 33
+    },
+    {
+      "subjectId": "statistics-probability",
+      "subjectName": "الإحصاء والاحتمالات",
+      "section": "theory",
+      "fromSlot": 4,
+      "mode": "custom",
+      "toSlots": [
+        3
+      ],
+      "id": "swp_1792430589144_1830",
+      "studentName": "قمر مأمون الكنعان",
+      "studentId": "20257117",
+      "contact": "٠٩٩٢٢٢٣٧٠٦",
+      "createdAt": "2026-10-19T17:23:12Z",
+      "prNumber": 34
     }
   ]
 }
