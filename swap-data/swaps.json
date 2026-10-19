@@ -974,6 +974,38 @@
       "contact": "0969823103",
       "createdAt": "2026-10-19T17:50:29Z",
       "prNumber": 46
+    },
+    {
+      "subjectId": "digital-logic",
+      "subjectName": "المنطق الرقمي",
+      "section": "theory",
+      "fromSlot": 2,
+      "mode": "custom",
+      "toSlots": [
+        1
+      ],
+      "id": "swp_1792432315522_k2js",
+      "studentName": "سارة محمد المقداد",
+      "studentId": "20257068",
+      "contact": "واتساب",
+      "createdAt": "2026-10-19T17:52:09Z",
+      "prNumber": 47
+    },
+    {
+      "subjectId": "electronics-1",
+      "subjectName": "الإلكترونيات (1)",
+      "section": "theory",
+      "fromSlot": 3,
+      "mode": "custom",
+      "toSlots": [
+        2
+      ],
+      "id": "swp_1792432315522_k2js_2",
+      "studentName": "سارة محمد المقداد",
+      "studentId": "20257068",
+      "contact": "واتساب",
+      "createdAt": "2026-10-19T17:52:09Z",
+      "prNumber": 47
     }
   ]
 }
