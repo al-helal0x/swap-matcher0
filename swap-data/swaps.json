@@ -1154,6 +1154,56 @@
       "contact": "",
       "createdAt": "2026-10-19T18:05:40Z",
       "prNumber": 49
+    },
+    {
+      "subjectId": "math-3",
+      "subjectName": "رياضيات (3)",
+      "section": "theory",
+      "fromSlot": 2,
+      "mode": "custom",
+      "toSlots": [
+        1,
+        3
+      ],
+      "id": "swp_1792433498963_ko0x",
+      "studentName": "بيان خالد عمر",
+      "studentId": "20257032",
+      "contact": "905010767175+",
+      "createdAt": "2026-10-19T18:11:44Z",
+      "prNumber": 50
+    },
+    {
+      "subjectId": "programming-2",
+      "subjectName": "برمجة (2)",
+      "section": "theory",
+      "fromSlot": 2,
+      "mode": "custom",
+      "toSlots": [
+        1
+      ],
+      "id": "swp_1792433498963_ko0x_2",
+      "studentName": "بيان خالد عمر",
+      "studentId": "20257032",
+      "contact": "905010767175+",
+      "createdAt": "2026-10-19T18:11:44Z",
+      "prNumber": 50
+    },
+    {
+      "subjectId": "electronics-1",
+      "subjectName": "الإلكترونيات (1)",
+      "section": "theory",
+      "fromSlot": 3,
+      "mode": "earlier",
+      "toSlots": [
+        1,
+        2
+      ],
+      "id": "swp_1792433498963_ko0x_3",
+      "studentName": "بيان خالد عمر",
+      "studentId": "20257032",
+      "contact": "905010767175+",
+      "createdAt": "2026-10-19T18:11:44Z",
+      "prNumber": 50
     }
   ]
 }
