@@ -1302,6 +1302,88 @@
       "contact": "0959567203",
       "createdAt": "2026-10-19T18:38:38Z",
       "prNumber": 60
+    },
+    {
+      "subjectId": "digital-logic",
+      "subjectName": "المنطق الرقمي",
+      "section": "theory",
+      "fromSlot": 3,
+      "mode": "custom",
+      "toSlots": [
+        1,
+        2
+      ],
+      "id": "swp_1792435162659_tq9w",
+      "studentName": "يزن محمد رضوان بريكات",
+      "studentId": "20257175",
+      "contact": "0998918783",
+      "createdAt": "2026-10-19T18:39:28Z",
+      "prNumber": 62
+    },
+    {
+      "subjectId": "digital-logic",
+      "subjectName": "المنطق الرقمي",
+      "section": "lab",
+      "fromSlot": 6,
+      "mode": "custom",
+      "toSlots": [
+        3
+      ],
+      "id": "swp_1792435162659_tq9w_2",
+      "studentName": "يزن محمد رضوان بريكات",
+      "studentId": "20257175",
+      "contact": "0998918783",
+      "createdAt": "2026-10-19T18:39:28Z",
+      "prNumber": 62
+    },
+    {
+      "subjectId": "statistics-probability",
+      "subjectName": "الإحصاء والاحتمالات",
+      "section": "theory",
+      "fromSlot": 3,
+      "mode": "custom",
+      "toSlots": [
+        1,
+        2
+      ],
+      "id": "swp_1792435162659_tq9w_3",
+      "studentName": "يزن محمد رضوان بريكات",
+      "studentId": "20257175",
+      "contact": "0998918783",
+      "createdAt": "2026-10-19T18:39:28Z",
+      "prNumber": 62
+    },
+    {
+      "subjectId": "electronics-1",
+      "subjectName": "الإلكترونيات (1)",
+      "section": "theory",
+      "fromSlot": 4,
+      "mode": "custom",
+      "toSlots": [
+        3
+      ],
+      "id": "swp_1792435162659_tq9w_4",
+      "studentName": "يزن محمد رضوان بريكات",
+      "studentId": "20257175",
+      "contact": "0998918783",
+      "createdAt": "2026-10-19T18:39:28Z",
+      "prNumber": 62
+    },
+    {
+      "subjectId": "electronics-1",
+      "subjectName": "الإلكترونيات (1)",
+      "section": "lab",
+      "fromSlot": 5,
+      "mode": "custom",
+      "toSlots": [
+        3
+      ],
+      "id": "swp_1792435162659_tq9w_5",
+      "studentName": "يزن محمد رضوان بريكات",
+      "studentId": "20257175",
+      "contact": "0998918783",
+      "createdAt": "2026-10-19T18:39:28Z",
+      "prNumber": 62
     }
   ]
 }
