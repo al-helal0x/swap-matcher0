@@ -817,6 +817,22 @@
       "contact": "٠٩٩٢٢٢٣٧٠٦",
       "createdAt": "2026-10-19T17:25:23Z",
       "prNumber": 36
+    },
+    {
+      "subjectId": "programming-2",
+      "subjectName": "برمجة (2)",
+      "section": "theory",
+      "fromSlot": 3,
+      "mode": "custom",
+      "toSlots": [
+        2
+      ],
+      "id": "swp_1792430732963_1dr8",
+      "studentName": "صبا أيهم الزعبي",
+      "studentId": "20257084",
+      "contact": "0987200276",
+      "createdAt": "2026-10-19T17:25:38Z",
+      "prNumber": 37
     }
   ]
 }
