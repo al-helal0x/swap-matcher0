@@ -405,26 +405,6 @@
     {
       "subjectId": "digital-logic",
       "subjectName": "المنطق الرقمي",
-      "section": "theory",
-      "fromSlot": 1,
-      "mode": "agreed",
-      "toSlots": [
-        2
-      ],
-      "partner": {
-        "name": "عامر محمد زاهر الديري",
-        "studentId": "20257200"
-      },
-      "id": "swp_1792429918689_pnfj",
-      "studentName": "مشعل مناف المقداد",
-      "studentId": "20247290",
-      "contact": "0932974649",
-      "createdAt": "2026-10-19T17:12:03Z",
-      "prNumber": 20
-    },
-    {
-      "subjectId": "digital-logic",
-      "subjectName": "المنطق الرقمي",
       "section": "lab",
       "fromSlot": 5,
       "mode": "custom",
