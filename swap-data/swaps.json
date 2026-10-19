@@ -165,6 +165,22 @@
       "contact": "",
       "createdAt": "2026-10-19T17:06:33Z",
       "prNumber": 9
+    },
+    {
+      "subjectId": "electronics-1",
+      "subjectName": "الإلكترونيات (1)",
+      "section": "theory",
+      "fromSlot": 3,
+      "mode": "custom",
+      "toSlots": [
+        1
+      ],
+      "id": "swp_1792429654866_y1cj",
+      "studentName": "امل خلف",
+      "studentId": "20257024",
+      "contact": "",
+      "createdAt": "2026-10-19T17:07:41Z",
+      "prNumber": 10
     }
   ]
 }
