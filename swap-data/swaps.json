@@ -489,6 +489,22 @@
       "contact": "0994801252",
       "createdAt": "2026-10-19T17:14:40Z",
       "prNumber": 24
+    },
+    {
+      "subjectId": "digital-logic",
+      "subjectName": "المنطق الرقمي",
+      "section": "lab",
+      "fromSlot": 2,
+      "mode": "custom",
+      "toSlots": [
+        5
+      ],
+      "id": "swp_1792430089905_ghz1",
+      "studentName": "اسماعيل خليل الدرباس",
+      "studentId": "20257016",
+      "contact": "+963959975707",
+      "createdAt": "2026-10-19T17:14:57Z",
+      "prNumber": 26
     }
   ]
 }
