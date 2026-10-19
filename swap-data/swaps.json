@@ -1204,6 +1204,40 @@
       "contact": "905010767175+",
       "createdAt": "2026-10-19T18:11:44Z",
       "prNumber": 50
+    },
+    {
+      "subjectId": "digital-logic",
+      "subjectName": "المنطق الرقمي",
+      "section": "theory",
+      "fromSlot": 2,
+      "mode": "earlier",
+      "toSlots": [
+        1
+      ],
+      "id": "swp_1792433617255_n7ta",
+      "studentName": "آية محمد عصام الحواصلي",
+      "studentId": "20257002",
+      "contact": "0958401860",
+      "createdAt": "2026-10-19T18:13:41Z",
+      "prNumber": 51
+    },
+    {
+      "subjectId": "programming-2",
+      "subjectName": "برمجة (2)",
+      "section": "theory",
+      "fromSlot": 4,
+      "mode": "earlier",
+      "toSlots": [
+        1,
+        2,
+        3
+      ],
+      "id": "swp_1792433617255_n7ta_2",
+      "studentName": "آية محمد عصام الحواصلي",
+      "studentId": "20257002",
+      "contact": "0958401860",
+      "createdAt": "2026-10-19T18:13:41Z",
+      "prNumber": 51
     }
   ]
 }
