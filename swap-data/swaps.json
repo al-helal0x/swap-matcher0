@@ -1,3 +1,22 @@
 {
-  "requests": []
+  "requests": [
+    {
+      "subjectId": "programming-2",
+      "subjectName": "برمجة (2)",
+      "section": "theory",
+      "fromSlot": 4,
+      "mode": "earlier",
+      "toSlots": [
+        1,
+        2,
+        3
+      ],
+      "id": "swp_1792429520534_7aiv",
+      "studentName": "اسماعيل خليل الدرباس",
+      "studentId": "20257016",
+      "contact": "+963959975707",
+      "createdAt": "2026-10-19T17:05:26Z",
+      "prNumber": 1
+    }
+  ]
 }
