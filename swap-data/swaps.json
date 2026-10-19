@@ -453,6 +453,22 @@
       "contact": "",
       "createdAt": "2026-10-19T17:12:22Z",
       "prNumber": 21
+    },
+    {
+      "subjectId": "digital-logic",
+      "subjectName": "المنطق الرقمي",
+      "section": "theory",
+      "fromSlot": 2,
+      "mode": "custom",
+      "toSlots": [
+        1
+      ],
+      "id": "swp_1792430047515_3gwa",
+      "studentName": "شمس عدنان الخطيب",
+      "studentId": "20257079",
+      "contact": "",
+      "createdAt": "2026-10-19T17:14:14Z",
+      "prNumber": 23
     }
   ]
 }
