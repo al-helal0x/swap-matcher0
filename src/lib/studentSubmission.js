@@ -7,7 +7,7 @@ import { SLOT_COUNT, MODES, MAX_ENTRIES, resolveTargets } from "./swapMatching.j
 
 const STUDENT_TOKEN = import.meta.env.VITE_UPLOAD_TOKEN || "";
 const OWNER = "al-helal0x";
-const REPO = "NAME";
+const REPO = "swap-matcher0";
 const BASE_BRANCH = "main";
 
 function ghHeaders() {

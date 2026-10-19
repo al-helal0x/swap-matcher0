@@ -5,5 +5,5 @@ import tailwindcss from "@tailwindcss/vite";
 // base = اسم الريبو بالضبط (GitHub Pages يخدم الموقع تحت /swap-matcher/).
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/NAME/",
+  base: "/swap-matcher0/",
 });
