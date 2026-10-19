@@ -1400,6 +1400,26 @@
       "contact": "0987200276",
       "createdAt": "2026-10-19T18:52:59Z",
       "prNumber": 63
+    },
+    {
+      "subjectId": "math-3",
+      "subjectName": "رياضيات (3)",
+      "section": "theory",
+      "fromSlot": 1,
+      "mode": "agreed",
+      "toSlots": [
+        2
+      ],
+      "partner": {
+        "name": "عامر محمد زاهر الديري",
+        "studentId": "20257200"
+      },
+      "id": "swp_1792436216993_l9o9",
+      "studentName": "مشعل مناف المقداد",
+      "studentId": "20247290",
+      "contact": "",
+      "createdAt": "2026-10-19T18:57:19Z",
+      "prNumber": 64
     }
   ]
 }
