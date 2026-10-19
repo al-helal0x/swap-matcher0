@@ -3,9 +3,25 @@
     {
       "id": "math-3",
       "name": "رياضيات (3)"
+    },
+    {
+      "id": "electronics-1",
+      "name": "الإلكترونيات (1)"
+    },
+    {
+      "id": "programming-2",
+      "name": "برمجة (2)"
+    },
+    {
+      "id": "statistics-probability",
+      "name": "الإحصاء والاحتمالات"
+    },
+    {
+      "id": "digital-logic",
+      "name": "المنطق الرقمي"
     }
   ],
   "openSubjectId": "math-3",
   "openSubjectName": "رياضيات (3)",
-  "updatedAt": "2026-10-19T07:42:36.992Z"
+  "updatedAt": "2026-10-19T17:01:27.456Z"
 }
