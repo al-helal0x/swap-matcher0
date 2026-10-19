@@ -9,7 +9,7 @@ const STORAGE_KEY = "admin_token";
 // نفس الريبو المنشور فعلياً — مُحدَّث 2026-07-27 بعد انتقال المشروع لحساب
 // جديد بالكامل (Omar-218). راجع أيضاً ملاحظة تصحيح DEFAULT_REPO بسجل عضو 5.
 export const DEFAULT_OWNER = "al-helal0x";
-export const DEFAULT_REPO = "swap-matcher";
+export const DEFAULT_REPO = "NAME";
 
 /** يتحقق من صلاحية التوكن عبر GitHub API مباشرة (بلا أي خادم وسيط).
  * يتحقق من: (أ) التوكن صالح ويصل للريبو، (ب) صلاحية push/contents متوفرة. */
