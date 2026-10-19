@@ -916,6 +916,24 @@
       "contact": "0962660942",
       "createdAt": "2026-10-19T17:34:49Z",
       "prNumber": 40
+    },
+    {
+      "subjectId": "statistics-probability",
+      "subjectName": "الإحصاء والاحتمالات",
+      "section": "theory",
+      "fromSlot": 4,
+      "mode": "earlier",
+      "toSlots": [
+        1,
+        2,
+        3
+      ],
+      "id": "swp_1792431270508_lxu4",
+      "studentName": "الزهراء غزوان الجلم",
+      "studentId": "20257021",
+      "contact": "0962660942",
+      "createdAt": "2026-10-19T17:36:01Z",
+      "prNumber": 41
     }
   ]
 }
