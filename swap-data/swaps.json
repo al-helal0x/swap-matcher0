@@ -522,6 +522,55 @@
       "contact": "0981653618",
       "createdAt": "2026-10-19T17:15:22Z",
       "prNumber": 27
+    },
+    {
+      "subjectId": "math-3",
+      "subjectName": "رياضيات (3)",
+      "section": "theory",
+      "fromSlot": 3,
+      "mode": "earlier",
+      "toSlots": [
+        1,
+        2
+      ],
+      "id": "swp_1792430184956_wcj9",
+      "studentName": "اسماعيل خليل الدرباس",
+      "studentId": "20257016",
+      "contact": "+963959975707",
+      "createdAt": "2026-10-19T17:16:33Z",
+      "prNumber": 28
+    },
+    {
+      "subjectId": "programming-2",
+      "subjectName": "برمجة (2)",
+      "section": "lab",
+      "fromSlot": 5,
+      "mode": "custom",
+      "toSlots": [
+        3
+      ],
+      "id": "swp_1792430143634_5pkm",
+      "studentName": "سبأ عمر العلي",
+      "studentId": "20257071",
+      "contact": "",
+      "createdAt": "2026-10-19T17:16:34Z",
+      "prNumber": 29
+    },
+    {
+      "subjectId": "digital-logic",
+      "subjectName": "المنطق الرقمي",
+      "section": "theory",
+      "fromSlot": 2,
+      "mode": "custom",
+      "toSlots": [
+        1
+      ],
+      "id": "swp_1792430143634_5pkm_2",
+      "studentName": "سبأ عمر العلي",
+      "studentId": "20257071",
+      "contact": "",
+      "createdAt": "2026-10-19T17:16:34Z",
+      "prNumber": 29
     }
   ]
 }
