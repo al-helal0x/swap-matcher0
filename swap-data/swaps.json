@@ -934,6 +934,25 @@
       "contact": "0962660942",
       "createdAt": "2026-10-19T17:36:01Z",
       "prNumber": 41
+    },
+    {
+      "subjectId": "electronics-1",
+      "subjectName": "الإلكترونيات (1)",
+      "section": "lab",
+      "fromSlot": 5,
+      "mode": "earlier",
+      "toSlots": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "id": "swp_1792431538685_hz4w",
+      "studentName": "زينه سمير شعار",
+      "studentId": "20257064",
+      "contact": "",
+      "createdAt": "2026-10-19T17:39:08Z",
+      "prNumber": 42
     }
   ]
 }
