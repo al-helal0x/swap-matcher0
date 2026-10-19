@@ -571,6 +571,59 @@
       "contact": "",
       "createdAt": "2026-10-19T17:16:34Z",
       "prNumber": 29
+    },
+    {
+      "subjectId": "electronics-1",
+      "subjectName": "الإلكترونيات (1)",
+      "section": "theory",
+      "fromSlot": 3,
+      "mode": "earlier",
+      "toSlots": [
+        1,
+        2
+      ],
+      "id": "swp_1792430288285_3o0t",
+      "studentName": "آية معاذ الرفاعي",
+      "studentId": "20257003",
+      "contact": "0981909264",
+      "createdAt": "2026-10-19T17:18:13Z",
+      "prNumber": 30
+    },
+    {
+      "subjectId": "programming-2",
+      "subjectName": "برمجة (2)",
+      "section": "theory",
+      "fromSlot": 1,
+      "mode": "agreed",
+      "toSlots": [
+        2
+      ],
+      "partner": {
+        "name": "عامر محمد زاهر الديري",
+        "studentId": "20257200"
+      },
+      "id": "swp_1792430288285_3o0t_2",
+      "studentName": "آية معاذ الرفاعي",
+      "studentId": "20257003",
+      "contact": "0981909264",
+      "createdAt": "2026-10-19T17:18:13Z",
+      "prNumber": 30
+    },
+    {
+      "subjectId": "digital-logic",
+      "subjectName": "المنطق الرقمي",
+      "section": "lab",
+      "fromSlot": 1,
+      "mode": "custom",
+      "toSlots": [
+        3
+      ],
+      "id": "swp_1792430288285_3o0t_3",
+      "studentName": "آية معاذ الرفاعي",
+      "studentId": "20257003",
+      "contact": "0981909264",
+      "createdAt": "2026-10-19T17:18:13Z",
+      "prNumber": 30
     }
   ]
 }
