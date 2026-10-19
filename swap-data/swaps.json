@@ -150,23 +150,6 @@
       "prNumber": 8
     },
     {
-      "subjectId": "digital-logic",
-      "subjectName": "المنطق الرقمي",
-      "section": "lab",
-      "fromSlot": 6,
-      "mode": "custom",
-      "toSlots": [
-        3,
-        4
-      ],
-      "id": "swp_1792429586768_xb0n",
-      "studentName": "زهراء خالد حمود",
-      "studentId": "20257060",
-      "contact": "",
-      "createdAt": "2026-10-19T17:06:33Z",
-      "prNumber": 9
-    },
-    {
       "subjectId": "electronics-1",
       "subjectName": "الإلكترونيات (1)",
       "section": "theory",
