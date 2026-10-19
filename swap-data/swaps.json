@@ -624,6 +624,86 @@
       "contact": "0981909264",
       "createdAt": "2026-10-19T17:18:13Z",
       "prNumber": 30
+    },
+    {
+      "subjectId": "math-3",
+      "subjectName": "رياضيات (3)",
+      "section": "theory",
+      "fromSlot": 3,
+      "mode": "custom",
+      "toSlots": [
+        1
+      ],
+      "id": "swp_1792430424309_4hwd",
+      "studentName": "اديب جميل البيرقدار",
+      "studentId": "20257014",
+      "contact": "0962382983",
+      "createdAt": "2026-10-19T17:20:43Z",
+      "prNumber": 31
+    },
+    {
+      "subjectId": "programming-2",
+      "subjectName": "برمجة (2)",
+      "section": "lab",
+      "fromSlot": 1,
+      "mode": "custom",
+      "toSlots": [
+        5
+      ],
+      "id": "swp_1792430424309_4hwd_2",
+      "studentName": "اديب جميل البيرقدار",
+      "studentId": "20257014",
+      "contact": "0962382983",
+      "createdAt": "2026-10-19T17:20:43Z",
+      "prNumber": 31
+    },
+    {
+      "subjectId": "electronics-1",
+      "subjectName": "الإلكترونيات (1)",
+      "section": "theory",
+      "fromSlot": 2,
+      "mode": "custom",
+      "toSlots": [
+        1
+      ],
+      "id": "swp_1792430424309_4hwd_3",
+      "studentName": "اديب جميل البيرقدار",
+      "studentId": "20257014",
+      "contact": "0962382983",
+      "createdAt": "2026-10-19T17:20:43Z",
+      "prNumber": 31
+    },
+    {
+      "subjectId": "electronics-1",
+      "subjectName": "الإلكترونيات (1)",
+      "section": "lab",
+      "fromSlot": 1,
+      "mode": "custom",
+      "toSlots": [
+        3
+      ],
+      "id": "swp_1792430424309_4hwd_4",
+      "studentName": "اديب جميل البيرقدار",
+      "studentId": "20257014",
+      "contact": "0962382983",
+      "createdAt": "2026-10-19T17:20:43Z",
+      "prNumber": 31
+    },
+    {
+      "subjectId": "digital-logic",
+      "subjectName": "المنطق الرقمي",
+      "section": "lab",
+      "fromSlot": 4,
+      "mode": "custom",
+      "toSlots": [
+        5
+      ],
+      "id": "swp_1792430424309_4hwd_6",
+      "studentName": "اديب جميل البيرقدار",
+      "studentId": "20257014",
+      "contact": "0962382983",
+      "createdAt": "2026-10-19T17:20:43Z",
+      "prNumber": 31
     }
   ]
 }
