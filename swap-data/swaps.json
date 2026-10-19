@@ -1418,6 +1418,22 @@
       "contact": "",
       "createdAt": "2026-10-19T18:58:59Z",
       "prNumber": 65
+    },
+    {
+      "subjectId": "digital-logic",
+      "subjectName": "المنطق الرقمي",
+      "section": "lab",
+      "fromSlot": 4,
+      "mode": "custom",
+      "toSlots": [
+        2
+      ],
+      "id": "swp_1792436938176_d514",
+      "studentName": "الزهراء غزوان الجلم",
+      "studentId": "20257021",
+      "contact": "0962660942",
+      "createdAt": "2026-10-19T19:10:33Z",
+      "prNumber": 66
     }
   ]
 }
