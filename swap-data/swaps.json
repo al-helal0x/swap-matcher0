@@ -1006,6 +1006,86 @@
       "contact": "واتساب",
       "createdAt": "2026-10-19T17:52:09Z",
       "prNumber": 47
+    },
+    {
+      "subjectId": "digital-logic",
+      "subjectName": "المنطق الرقمي",
+      "section": "theory",
+      "fromSlot": 1,
+      "mode": "custom",
+      "toSlots": [
+        2
+      ],
+      "id": "swp_1792432533954_8k01",
+      "studentName": "الزهراء غزوان الجلم",
+      "studentId": "20257021",
+      "contact": "0962660942",
+      "createdAt": "2026-10-19T17:57:03Z",
+      "prNumber": 48
+    },
+    {
+      "subjectId": "statistics-probability",
+      "subjectName": "الإحصاء والاحتمالات",
+      "section": "theory",
+      "fromSlot": 4,
+      "mode": "custom",
+      "toSlots": [
+        1
+      ],
+      "id": "swp_1792432533954_8k01_2",
+      "studentName": "الزهراء غزوان الجلم",
+      "studentId": "20257021",
+      "contact": "0962660942",
+      "createdAt": "2026-10-19T17:57:03Z",
+      "prNumber": 48
+    },
+    {
+      "subjectId": "programming-2",
+      "subjectName": "برمجة (2)",
+      "section": "theory",
+      "fromSlot": 3,
+      "mode": "custom",
+      "toSlots": [
+        2
+      ],
+      "id": "swp_1792432533954_8k01_3",
+      "studentName": "الزهراء غزوان الجلم",
+      "studentId": "20257021",
+      "contact": "0962660942",
+      "createdAt": "2026-10-19T17:57:03Z",
+      "prNumber": 48
+    },
+    {
+      "subjectId": "electronics-1",
+      "subjectName": "الإلكترونيات (1)",
+      "section": "theory",
+      "fromSlot": 3,
+      "mode": "custom",
+      "toSlots": [
+        1
+      ],
+      "id": "swp_1792432533954_8k01_4",
+      "studentName": "الزهراء غزوان الجلم",
+      "studentId": "20257021",
+      "contact": "0962660942",
+      "createdAt": "2026-10-19T17:57:03Z",
+      "prNumber": 48
+    },
+    {
+      "subjectId": "electronics-1",
+      "subjectName": "الإلكترونيات (1)",
+      "section": "lab",
+      "fromSlot": 4,
+      "mode": "custom",
+      "toSlots": [
+        3
+      ],
+      "id": "swp_1792432533954_8k01_5",
+      "studentName": "الزهراء غزوان الجلم",
+      "studentId": "20257021",
+      "contact": "0962660942",
+      "createdAt": "2026-10-19T17:57:03Z",
+      "prNumber": 48
     }
   ]
 }
