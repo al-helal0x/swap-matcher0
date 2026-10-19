@@ -50,6 +50,56 @@
       "contact": "",
       "createdAt": "2026-10-19T17:05:50Z",
       "prNumber": 3
+    },
+    {
+      "subjectId": "programming-2",
+      "subjectName": "برمجة (2)",
+      "section": "theory",
+      "fromSlot": 4,
+      "mode": "custom",
+      "toSlots": [
+        2
+      ],
+      "id": "swp_1792429553246_5m7b",
+      "studentName": "محمد قتيبة الغالول",
+      "studentId": "20257152",
+      "contact": "",
+      "createdAt": "2026-10-19T17:06:00Z",
+      "prNumber": 4
+    },
+    {
+      "subjectId": "math-3",
+      "subjectName": "رياضيات (3)",
+      "section": "theory",
+      "fromSlot": 3,
+      "mode": "earlier",
+      "toSlots": [
+        1,
+        2
+      ],
+      "id": "swp_1792429556972_4rb5",
+      "studentName": "حسين محمد سامر الكومي",
+      "studentId": "20257043",
+      "contact": "0938369808",
+      "createdAt": "2026-10-19T17:06:01Z",
+      "prNumber": 5
+    },
+    {
+      "subjectId": "programming-2",
+      "subjectName": "برمجة (2)",
+      "section": "theory",
+      "fromSlot": 3,
+      "mode": "earlier",
+      "toSlots": [
+        1,
+        2
+      ],
+      "id": "swp_1792429564560_sous",
+      "studentName": "المنتصر بالله",
+      "studentId": "20257023",
+      "contact": "0992012686",
+      "createdAt": "2026-10-19T17:06:10Z",
+      "prNumber": 6
     }
   ]
 }
