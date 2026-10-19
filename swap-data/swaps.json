@@ -785,6 +785,38 @@
       "contact": "٠٩٩٢٢٢٣٧٠٦",
       "createdAt": "2026-10-19T17:23:12Z",
       "prNumber": 34
+    },
+    {
+      "subjectId": "programming-2",
+      "subjectName": "برمجة (2)",
+      "section": "theory",
+      "fromSlot": 4,
+      "mode": "custom",
+      "toSlots": [
+        3
+      ],
+      "id": "swp_1792430708353_k8wf",
+      "studentName": "شهد حسام زهرة",
+      "studentId": "20257081",
+      "contact": "0940105650",
+      "createdAt": "2026-10-19T17:25:15Z",
+      "prNumber": 35
+    },
+    {
+      "subjectId": "programming-2",
+      "subjectName": "برمجة (2)",
+      "section": "theory",
+      "fromSlot": 4,
+      "mode": "custom",
+      "toSlots": [
+        3
+      ],
+      "id": "swp_1792430720281_z3gc",
+      "studentName": "قمر مأمون الكنعان",
+      "studentId": "20257117",
+      "contact": "٠٩٩٢٢٢٣٧٠٦",
+      "createdAt": "2026-10-19T17:25:23Z",
+      "prNumber": 36
     }
   ]
 }
