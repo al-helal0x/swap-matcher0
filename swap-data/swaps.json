@@ -1270,6 +1270,38 @@
       "contact": "",
       "createdAt": "2026-10-19T18:36:22Z",
       "prNumber": 59
+    },
+    {
+      "subjectId": "programming-2",
+      "subjectName": "برمجة (2)",
+      "section": "lab",
+      "fromSlot": 5,
+      "mode": "custom",
+      "toSlots": [
+        3
+      ],
+      "id": "swp_1792435110523_k2ws",
+      "studentName": "زين عبد الحفيظ عصفور",
+      "studentId": "20257061",
+      "contact": "0959567203",
+      "createdAt": "2026-10-19T18:38:38Z",
+      "prNumber": 60
+    },
+    {
+      "subjectId": "digital-logic",
+      "subjectName": "المنطق الرقمي",
+      "section": "theory",
+      "fromSlot": 2,
+      "mode": "earlier",
+      "toSlots": [
+        1
+      ],
+      "id": "swp_1792435110523_k2ws_2",
+      "studentName": "زين عبد الحفيظ عصفور",
+      "studentId": "20257061",
+      "contact": "0959567203",
+      "createdAt": "2026-10-19T18:38:38Z",
+      "prNumber": 60
     }
   ]
 }
