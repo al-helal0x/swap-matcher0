@@ -754,23 +754,6 @@
       "prNumber": 32
     },
     {
-      "subjectId": "electronics-1",
-      "subjectName": "الإلكترونيات (1)",
-      "section": "theory",
-      "fromSlot": 3,
-      "mode": "earlier",
-      "toSlots": [
-        1,
-        2
-      ],
-      "id": "swp_1792430430288_tsfh",
-      "studentName": "الزهراء غزوان الجلم",
-      "studentId": "20257021",
-      "contact": "0962660942",
-      "createdAt": "2026-10-19T17:22:00Z",
-      "prNumber": 33
-    },
-    {
       "subjectId": "statistics-probability",
       "subjectName": "الإحصاء والاحتمالات",
       "section": "theory",
