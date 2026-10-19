@@ -901,23 +901,6 @@
       "prNumber": 39
     },
     {
-      "subjectId": "programming-2",
-      "subjectName": "برمجة (2)",
-      "section": "theory",
-      "fromSlot": 3,
-      "mode": "earlier",
-      "toSlots": [
-        1,
-        2
-      ],
-      "id": "swp_1792431199953_v78f",
-      "studentName": "الزهراء غزوان الجلم",
-      "studentId": "20257021",
-      "contact": "0962660942",
-      "createdAt": "2026-10-19T17:34:49Z",
-      "prNumber": 40
-    },
-    {
       "subjectId": "statistics-probability",
       "subjectName": "الإحصاء والاحتمالات",
       "section": "theory",
