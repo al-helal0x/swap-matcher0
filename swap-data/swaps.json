@@ -1515,6 +1515,39 @@
       "contact": "0959181018",
       "createdAt": "2026-10-20T01:34:00Z",
       "prNumber": 72
+    },
+    {
+      "subjectId": "digital-logic",
+      "subjectName": "المنطق الرقمي",
+      "section": "theory",
+      "fromSlot": 2,
+      "mode": "custom",
+      "toSlots": [
+        1
+      ],
+      "id": "swp_1792497301930_q5iu",
+      "studentName": "اية امجد بريجاوي",
+      "studentId": "20257025",
+      "contact": "",
+      "createdAt": "2026-10-20T11:55:41Z",
+      "prNumber": 74
+    },
+    {
+      "subjectId": "programming-2",
+      "subjectName": "برمجة (2)",
+      "section": "lab",
+      "fromSlot": 3,
+      "mode": "earlier",
+      "toSlots": [
+        1,
+        2
+      ],
+      "id": "swp_1792497301930_q5iu_2",
+      "studentName": "اية امجد بريجاوي",
+      "studentId": "20257025",
+      "contact": "",
+      "createdAt": "2026-10-20T11:55:41Z",
+      "prNumber": 74
     }
   ]
 }
