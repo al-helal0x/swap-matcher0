@@ -1564,6 +1564,23 @@
       "contact": "",
       "createdAt": "2026-10-20T12:16:23Z",
       "prNumber": 75
+    },
+    {
+      "subjectId": "programming-2",
+      "subjectName": "برمجة (2)",
+      "section": "lab",
+      "fromSlot": 3,
+      "mode": "earlier",
+      "toSlots": [
+        1,
+        2
+      ],
+      "id": "swp_1792499201150_2vxq",
+      "studentName": "وعد احمد السقر",
+      "studentId": "20257168",
+      "contact": "",
+      "createdAt": "2026-10-20T12:27:12Z",
+      "prNumber": 76
     }
   ]
 }
