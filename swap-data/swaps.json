@@ -1482,6 +1482,39 @@
       "contact": "0938369808",
       "createdAt": "2026-10-19T22:18:12Z",
       "prNumber": 71
+    },
+    {
+      "subjectId": "programming-2",
+      "subjectName": "برمجة (2)",
+      "section": "lab",
+      "fromSlot": 5,
+      "mode": "custom",
+      "toSlots": [
+        3,
+        4
+      ],
+      "id": "swp_1792460034907_zwti",
+      "studentName": "ريان عدنان الخشارفة",
+      "studentId": "20257059",
+      "contact": "0959181018",
+      "createdAt": "2026-10-20T01:34:00Z",
+      "prNumber": 72
+    },
+    {
+      "subjectId": "digital-logic",
+      "subjectName": "المنطق الرقمي",
+      "section": "lab",
+      "fromSlot": 2,
+      "mode": "custom",
+      "toSlots": [
+        4
+      ],
+      "id": "swp_1792460034907_zwti_2",
+      "studentName": "ريان عدنان الخشارفة",
+      "studentId": "20257059",
+      "contact": "0959181018",
+      "createdAt": "2026-10-20T01:34:00Z",
+      "prNumber": 72
     }
   ]
 }
