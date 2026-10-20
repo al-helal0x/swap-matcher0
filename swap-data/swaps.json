@@ -1548,6 +1548,22 @@
       "contact": "",
       "createdAt": "2026-10-20T11:55:41Z",
       "prNumber": 74
+    },
+    {
+      "subjectId": "digital-logic",
+      "subjectName": "المنطق الرقمي",
+      "section": "theory",
+      "fromSlot": 2,
+      "mode": "custom",
+      "toSlots": [
+        1
+      ],
+      "id": "swp_1792498553020_brnp",
+      "studentName": "وعد احمد السقر",
+      "studentId": "20257168",
+      "contact": "",
+      "createdAt": "2026-10-20T12:16:23Z",
+      "prNumber": 75
     }
   ]
 }
