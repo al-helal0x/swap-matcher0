@@ -1646,6 +1646,22 @@
       "contact": "0982921874",
       "createdAt": "2026-10-22T19:10:42Z",
       "prNumber": 81
+    },
+    {
+      "subjectId": "programming-2",
+      "subjectName": "برمجة (2)",
+      "section": "theory",
+      "fromSlot": 3,
+      "mode": "custom",
+      "toSlots": [
+        2
+      ],
+      "id": "swp_1792744938510_33zv",
+      "studentName": "منصور محمد أبرش",
+      "studentId": "20257159",
+      "contact": "0984832631",
+      "createdAt": "2026-10-23T08:42:25Z",
+      "prNumber": 82
     }
   ]
 }
