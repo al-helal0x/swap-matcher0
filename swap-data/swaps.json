@@ -1662,6 +1662,26 @@
       "contact": "0984832631",
       "createdAt": "2026-10-23T08:42:25Z",
       "prNumber": 82
+    },
+    {
+      "subjectId": "digital-logic",
+      "subjectName": "المنطق الرقمي",
+      "section": "theory",
+      "fromSlot": 2,
+      "mode": "agreed",
+      "toSlots": [
+        1
+      ],
+      "partner": {
+        "name": "عدنان الراغب",
+        "studentId": "20257096"
+      },
+      "id": "swp_1792815221571_th5s",
+      "studentName": "محمد حسام النجار المصري",
+      "studentId": "20257073",
+      "contact": "",
+      "createdAt": "2026-10-24T04:13:48Z",
+      "prNumber": 83
     }
   ]
 }
