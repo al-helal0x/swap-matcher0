@@ -1682,6 +1682,26 @@
       "contact": "",
       "createdAt": "2026-10-24T04:13:48Z",
       "prNumber": 83
+    },
+    {
+      "subjectId": "electronics-1",
+      "subjectName": "الإلكترونيات (1)",
+      "section": "lab",
+      "fromSlot": 6,
+      "mode": "earlier",
+      "toSlots": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "id": "swp_1792857331735_84v5",
+      "studentName": "عبدالرحمن محمد الهلال",
+      "studentId": "20257184",
+      "contact": "",
+      "createdAt": "2026-10-24T15:55:36Z",
+      "prNumber": 84
     }
   ]
 }
